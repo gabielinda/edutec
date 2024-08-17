@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background: #41819E;
+}
+
+header{
+    height: 5rem;
+    margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+}
+
+header img{
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.barra_progresso{
+    background: #0f3b7194;
+    height: 2rem;
+    
+}
+.barra_progresso div{
+    height: 100%;
+    width: 12.5%;
+    background: #0f3b71;
+    
+}
+
+.pergunta{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.pergunta h1{
+    font-size: 3rem;
+    color: #fff;
+    margin-right: 10rem;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+.alternativas{
+    display: flex;
+}
+
+.teste{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alternativas img{
+    margin-right: 20rem;
+}
+
+.alternativas form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.alternativas label{
+    display: block;
+    background: #0F5071;
+    padding: 2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 3rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.alternativas label:hover{  
+
+    & span{
+        background: #c4c4c4;
+        color: #156d99;
+    }
+}
+
+.alternativas label:has(input:checked){
+    outline: 3px solid #2f2f2f;
+    & span {
+        background: #41819E;
+        color: #ffff;
+    }
+}
+
+.alternativas label#correta{
+    background:#1CC800;
+    & span {
+        background: #117612;
+        color: #fff;
+    }
+}
+
+.alternativas label#errada{
+    background: #FD0000;
+    & span {
+        background: #8B1E1E;
+        color: #fff;
+    }
+}
+
+.alternativas input{
+    display: none;
+}
+
+.alternativas div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.alternativas div span{
+    display: block;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #fff;
+    border-radius: 999px;
+    color: #0F5071;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.alternativas button:hover{
+    background: #0e618b;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 4rem;
+    width: 15rem;
+    height: 4rem;
+    color: #ffff;
+    background: #0f3b71;
+    border-radius: 999px;
+    font-size: 1.3rem;
+    border: none;
+}
+
+button:hover{
+    background: #155098;
+    cursor: pointer;
+}
+
+.bt{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
