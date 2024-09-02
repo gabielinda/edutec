@@ -24,15 +24,14 @@ header img{
 }
 
 .barra_progresso{
-    background: #0f3b7194;
+    background: #0f3b7167;
     height: 2rem;
     
 }
 .barra_progresso div{
     height: 100%;
-    width: 12.5%;
-    background: #0f3b71;
-    
+    background: #0d376b;
+      
 }
 
 .pergunta{
@@ -43,7 +42,7 @@ header img{
 }
 
 .pergunta h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #fff;
     margin-right: 10rem;
     font-family: "MuseoModerno", sans-serif;
@@ -51,6 +50,7 @@ header img{
 
 .alternativas{
     display: flex;
+    margin-top: 6rem;
 }
 
 .teste{
@@ -77,6 +77,7 @@ header img{
     border-radius: 3rem;
     color: #fff;
     cursor: pointer;
+    width: 41rem;
 }
 
 .alternativas label:hover{  
