@@ -1,0 +1,90 @@
+{
+    "quizzes": [
+        {
+            "title": "Quiz",
+            "questions": [
+                {
+                    "question": "O que é biodiversidade marinha?",
+                    "options": [
+                        " Variedade de seres vivos nos oceanos",
+                        "Vida nos oceanos, mares, costas e estuários",
+                        "Apenas mamíferos marinhos",
+                        "Variedade de corais"
+                    ],
+                    "answer": "Vida nos oceanos, mares, costas e estuários"
+                },
+                {
+                    "question": "Qual dos seguintes não é uma ameaça aos ecossistemas marinhos?",
+                    "options": [
+                        " Conservação marinha",
+                        "Sobrepesca",
+                        "Poluição marinha",
+                        " Mudanças climáticas"
+                    ],
+                    "answer": " Conservação marinha"
+                },
+                {
+                    "question": "Qual é o principal impacto das mudanças climáticas nos oceanos?",
+                    "options": [
+                        "Aquecimento dos oceanos",
+                        "Acidificação dos oceanos",
+                        "Elevação do nível do mar",
+                        "Todas as opções acima"
+                    ],
+                    "answer": "Todas as opções acima"
+                },
+                {
+                    "question": "O que é conservação marinha?",
+                    "options": [
+                        "Estudo das marés",
+                        "Proteção dos peixes ameaçados",
+                        "Proteção dos ecossistemas marinhos",
+                        "Estudo das propriedades da água do mar"
+                    ],
+                    "answer": "Proteção dos ecossistemas marinhos"
+                },
+                {
+                    "question": "Qual das seguintes espécies marinhas é considerada emblemática?",
+                    "options": [
+                        "Tartaruga-verde",
+                        "Sardinha",
+                        "Linguado",
+                        "Caranguejo"
+                    ],
+                    "answer": "Tartaruga-verde"
+                },
+                {
+                    "question": "Qual é o objetivo da instrumentação de alta tecnologia mencionada no texto?",
+                    "options": [
+                        " Monitoriza a poluição",
+                        "Estuda migração das baleias",
+                        "Investiga propriedades dos oceanos",
+                        "Filma documentários"
+                    ],
+                    "answer": "Investiga propriedades dos oceanos"
+                },
+                {
+                    "question": "Quais são os principais tipos de mudanças climáticas que afetam os oceanos?",
+                    "options": [
+                        "Terremotos e vulcões",
+                        "Aquecimento, acidificação, elevação do nível do mar",
+                        "Furacões e tornados",
+                        "Nevascas e ondas de calor"
+                    ],
+                    "answer": "Aquecimento, acidificação, elevação do nível do mar"
+                },
+                {
+                    "question": "O que são Áreas Marinhas Protegidas (AMPs)?",
+                    "options": [
+                        "Locais para competições de surf",
+                        " Zonas de pesca proibida para proteger recifes",
+                        "Áreas de estudo da poluição",
+                        "Zonas de caça de baleias"
+                    ],
+                    "answer": " Zonas de pesca proibida para proteger recifes"
+                }
+            ]
+        }
+    ]
+
+}
