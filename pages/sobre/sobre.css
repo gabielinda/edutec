@@ -10,6 +10,62 @@ body{
 }
 
 header{
+    height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+}
+
+header img{
+    width: 6rem;
+    margin-left: 2rem;
+}
+
+.navegacao{
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #cfcbcb;
+    text-decoration:underline;
+}
+
+main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #fff;
+}
+
+h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "DM Sans", sans-serif;
+}
+
+h2{
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media(min-width: 1110px) {
+header{
     height: 5rem;
     margin-bottom: 5rem;
 }
@@ -71,4 +127,5 @@ p{
 
 .ajudar p{
     font-size: 1.5rem;
+}
 }

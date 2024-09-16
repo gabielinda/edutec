@@ -8,10 +8,92 @@
 
 body{
     background: #284561;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
+header{
+    height: 3rem;
+    margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+}
+
+header img{
+    width: 6rem;
+    margin-left: 2rem;
+}
+
+.navegacao{
+    margin-top: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #cfcbcb;
+    text-decoration:underline;
+}
+
+main{
+    background: #41819E;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    height: 28rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: #fff;
+    font-size: 2rem;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 2rem;
+}
+
+.pontuacao{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+button{
+    margin-top: 4rem;
+    padding: 1rem;
+    width: 8rem;
+    color: #ffff;
+    background: #0f3b71;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    margin-left: 1.4rem;
+}
+
+button:hover{
+    background: #155098;
+    cursor: pointer;
+}
+
+.bt{
+    display: flex;
+}
+
+.pontuacao strong{
+    font-size: 6rem;
+}
+
+@media(min-width: 1110px) {
 header{
     height: 5rem;
     margin-bottom: 5rem;
@@ -90,4 +172,5 @@ button:hover{
 
 .pontuacao strong{
     font-size: 6rem;
+}
 }
